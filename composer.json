@@ -1,0 +1,26 @@
+{
+    "name": "zhangdashen\/zlg-sjunit-laravel",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangdashen",
+            "email": "1572909486@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhangdashen\\SJunitLaravel\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Zhangdashen\\SJunitLaravel\\Providers\\SJunitServiceProvider"
+            ]
+        }
+    }
+}
